@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Global 변수 선언
         dockerRepo = "shclub/edu1"
-        dockerCredentials = 'docker_ci'
+        dockerCredentials = 'moon_docker_hub_ci_edu1'
         dockerImageVersioned = ""
         dockerImageLatest = ""
     }
